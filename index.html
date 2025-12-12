@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HistoryTime</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>HistoryTime – Interactive Historical Timeline</header>
+
+<div class="container">
+
+    <div class="filter-box">
+        <select id="categoryFilter">
+            <option value="all">Show All Categories</option>
+            <option value="war">War</option>
+            <option value="science">Science</option>
+            <option value="invention">Invention</option>
+            <option value="geography">Geography</option>
+        </select>
+
+        <select id="periodFilter">
+            <option value="all">All Time Periods</option>
+            <option value="ancient">Ancient</option>
+            <option value="medieval">Medieval</option>
+            <option value="modern">Modern</option>
+            <option value="contemporary">Contemporary</option>
+        </select>
+    </div>
+
+    <div class="timeline" id="timeline">
+        <!-- Timeline events will be added here from JS -->
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
